@@ -1,0 +1,21 @@
+body {
+  background-color: aqua;
+}
+
+.toolbar {
+  display: flex;
+  gap: 1em;
+  background-color: bisque;
+}
+
+.tool {
+  padding: 16px;
+}
+
+.tool:hover {
+  background-color: #bbb;
+}
+
+.active {
+  background-color: #999;
+}

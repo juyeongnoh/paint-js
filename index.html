@@ -7,5 +7,24 @@
     <script type="module" src="index.js"></script>
     <link rel="stylesheet" href="index.css" />
   </head>
-  <body></body>
+  <body>
+    <h1>Paint JS</h1>
+    <div class="wrapper">
+      <div class="toolbar">
+        <div class="tool brush" id="brush">브러쉬</div>
+        <div class="tool eraser" id="eraser">지우개</div>
+        <div class="tool nav" id="navigator">내비게이터</div>
+        <div class="tool undo" id="undo">실행취소</div>
+        <div class="tool download" id="download">다운로드</div>
+        <input
+          class="tool colorPicker"
+          id="colorPicker"
+          type="color"
+          value="#000000" />
+      </div>
+      <canvas id="canvas" width="1280" height="720">
+        캔버스가 지원되지 않습니다.
+      </canvas>
+    </div>
+  </body>
 </html>
